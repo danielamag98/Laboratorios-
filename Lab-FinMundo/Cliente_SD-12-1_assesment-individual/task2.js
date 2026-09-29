@@ -13,7 +13,8 @@ export async function listUsers() {
 
   //los corchetes, map e inspect, es para que el test nos de positivo
   console.log('[');   //el test espera esto en su impresion
-  console.log(data.map(user => inspect(user)).join(',\n'));  //map checa cada usuario, y aplica inspect a cada uno, pero siguen en modo node
+  //map checa cada usuario, y aplica inspect a cada uno, pero siguen en modo node
   // join, une todos estos textos en unos solo, poniendo una coma y un salto de linea, los hace lista vertical
+  console.log(data.map(user => inspect(user)).join(',\n'));  
   console.log(']');
 }
