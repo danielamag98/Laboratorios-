@@ -1,0 +1,22 @@
+Este repositorio contiene los documentos de Guia práctica sobre el uso y checklist de personalización, para la creación de IAs personalizadas en la plataforma de TextCortex.
+
+🤖 ¿Qué es la IA Personalizada en TextCortex?
+    TextCortex permite crear asistentes virtuales o "GPTs personalizados" adaptados a contextos específicos (como bases de conocimiento corporativas, flujos de trabajo de desarrollo o soporte especializado). 
+    Para utilizarlos de forma segura y eficiente, se deben seguir principios clave de gobernanza y privacidad:
+
+    1. Pruebas y Depuración (Testing)
+      ¿Por qué mantener un asistente privado al inicio?  
+        - Durante las fases iniciales, el modelo puede presentar alucinaciones, respuestas imprecisas o fallas lógicas. 
+        - Mantenerlo privado evita que el equipo o usuarios externos consuman información errónea antes de una validación exhaustiva.
+
+    2. Privacidad y Datos Sensibles (Logs y PII)
+        - Manejo de registros (Logs): Nunca se deben cargar archivos de registro o bases de datos sin procesar directamente si contienen información sensible de la empresa, credenciales, direcciones IP o datos de identificación personal (PII). 
+        Es obligatorio anonimizar o limpiar la data previamente.
+
+    3. Responsabilidad y Propiedad Intelectual
+        - Responsabilidad del usuario: La IA actúa como un copiloto. La persona o desarrollador que implementa y utiliza la herramienta es la única responsable de validar la precisión, equidad y legalidad de los resultados generados.
+        - Derechos de autor: Es fundamental citar fuentes y reconocer el uso de asistencia de IA para cumplir con las normativas de propiedad intelectual y evitar el plagio o infracciones de código.
+
+🔗 Enlaces de Interés
+    🛠️ Plantilla utilizada en TextCortex: Accede a la plantilla aquí (TODAVIA NO FINALIZADA)
+    🌐 Plataforma oficial: TextCortex (https://app.textcortex.com/user/login) 
