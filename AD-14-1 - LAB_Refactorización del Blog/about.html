@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiénes somos | Hirolandia</title>
+
+  <!-- CDN de Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color: var(--beige-sand);">
+
+  <!-- Navbar Bootstrap -->
+  <div class="floating-nav-wrapper">
+    <nav class="navbar navbar-expand-md floating-box">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html" style="color: var(--beige-sand);">Hirolandia</a>
+
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav gap-2 mt-2 mt-md-0">
+            <li class="nav-item">
+              <a class="nav-link px-3 rounded text-center" href="index.html" style="color: #fff;">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active px-3 rounded text-center" aria-current="page" href="about.html" style="color: var(--beige-sand);">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 rounded text-center" href="contact.html" style="color: #fff;">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Contenido principal (Grid 3-6-3) -->
+  <div class="container my-4">
+    <div class="row align-items-stretch">
+
+      <!-- Columna Izquierda (Anuncios) -->
+      <div class="col-3 px-2">
+        <div class="p-3 rounded shadow-sm text-center h-100" style="background-color: color-mix(in srgb, var(--slate-blue-grey) 50%, transparent); color: white;">
+          <h5 class="fw-bold">Anuncios</h5>
+          <p class="small text-light">Espacio reservado para futuros patrocinadores y publicidad</p>
+          <div class="p-4 bg-light text-dark rounded text-center my-4 opacity-75">
+            <em>Ad Banner</em>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna Central (Quiénes Somos) -->
+      <div class="col-6 px-3">
+        <div class="p-4 rounded shadow-sm bg-white h-100" style="border-top: 5px solid var(--dark-pine);">
+          <h1 class="text-center fw-bold mb-2" style="color: var(--charcoal-grey);">Quiénes Somos</h1>
+          <p class="text-center text-muted small mb-4">Conoce la historia detrás del proyecto Hirolandia</p>
+
+          <div class="my-3">
+            <h5 class="fw-bold mb-2" style="color: var(--charcoal-grey);">Nuestra Misión</h5>
+            <p class="mb-3" style="font-size: 0.9rem;">
+              En <strong>Hirolandia</strong> nos apasiona explorar los rincones más ocultos, misteriosos y fascinantes del coleccionismo y la cultura urbana de los Hironos. Buscamos construir una comunidad unida por la curiosidad, el diseño y el análisis detallado de cada relato escondido.
+            </p>
+
+            <h5 class="fw-bold mb-2" style="color: var(--charcoal-grey);">El Equipo</h5>
+            <p class="mb-3" style="font-size: 0.9rem;">
+              Este blog fue desarrollado por el equipo <strong>DMA</strong>, integrando un diseño web moderno y minimalista con Bootstrap 5, enfocado en ofrecer una experiencia visual limpia, cálida y de fácil navegación.
+            </p>
+
+            <h5 class="fw-bold mb-2" style="color: var(--charcoal-grey);">Nuestros Valores</h5>
+            <ul class="small mb-0" style="color: var(--charcoal-grey);">
+              <li><strong>Curiosidad:</strong> Explorar siempre más allá de lo evidente.</li>
+              <li><strong>Comunidad:</strong> Conectar mentes creativas y exploradores urbanos.</li>
+              <li><strong>Estética:</strong> Cuidar cada detalle visual con armonía y estilo.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna Derecha (Noticias) -->
+      <div class="col-3 px-2">
+        <div class="p-3 rounded shadow-sm text-center h-100" style="background-color: color-mix(in srgb, var(--earth-brown) 50%, transparent); color: white;">
+          <h5 class="fw-bold">Noticias</h5>
+          <p class="small text-light">Últimas novedades</p>
+          <div class="bg-light text-dark rounded p-3 my-2 opacity-75 text-start small">
+            🌱 Guía Hirono
+          </div>
+          <div class="bg-light text-dark rounded p-3 my-2 opacity-75 text-start small">
+            🌿 Taller de Mitos
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 mt-5 text-white" style="background-color: var(--charcoal-grey);">
+    <div class="container">
+      <p class="mb-1">Equipo de Desarrollo: <strong>DMA</strong></p>
+      <p class="mb-0 small text-light">Contacto: <a href="mailto:hirononate@gmail.com" class="text-decoration-none" style="color: var(--beige-sand);">hirononate@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

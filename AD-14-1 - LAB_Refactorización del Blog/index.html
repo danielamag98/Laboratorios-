@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The blog Site Refactor | Hirolandia</title>
+
+  <!-- CDN de Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body style="background-color: var(--beige-sand);">
+
+  <!-- Navbar Bootstrap -->
+  <div class="floating-nav-wrapper">
+    <nav class="navbar navbar-expand-md floating-box">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html" style="color: var(--beige-sand);">Hirolandia</a>
+
+        <!-- Botón de Bootstrap -->
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- elementos del boton -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav gap-2 mt-2 mt-md-0">
+            <li class="nav-item">
+              <a class="nav-link px-3 rounded text-center" href="index.html" style="color: var(--beige-sand);">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 rounded text-center" href="about.html" style="color: #fff;">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 rounded text-center" href="contact.html" style="color: #fff;">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Contenido principal en la página de inicio -->
+  <div class="container my-4">
+    <div class="row align-items-stretch">
+
+      <!-- Columna Izquierda (Anuncios) -->
+      <div class="col-3 px-2">
+        <div class="p-3 rounded shadow-sm text-center h-100" style="background-color: color-mix(in srgb, var(--slate-blue-grey) 50%, transparent); color: white;">
+          <h5 class="fw-bold">Anuncios</h5>
+          <p class="small text-light">Espacio reservado para futuros patrocinadores y publicidad</p>
+          <div class="p-4 bg-light text-dark rounded text-center my-4 opacity-75">
+            <em>Ad Banner</em>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna Central  -->
+      <div class="col-6 px-3">
+        <div class="p-4 rounded shadow-sm bg-white h-100" style="border-top: 5px solid var(--dark-pine);">
+          <!-- Título -->
+          <h1 class="text-center fw-bold mb-2" style="color: var(--charcoal-grey);">Bienvenidos a Hirolandia</h1>
+          <p class="text-center text-muted small mb-4">Publicado por DMA • 14 de Octubre, 2026</p>
+
+          <div class="row align-items-center gx-2 my-3">
+            <!-- Imagen  -->
+            <div class="col-5 text-center pe-0">
+              <img src="Pics/hide.jpg" class="rounded-circle shadow img-fluid" alt="Hirono hide" style="width: 170px; height: 170px; object-fit: cover;">
+            </div>
+
+            <!-- Texto principal -->
+            <div class="col-7 ps-0">
+              <p class="mb-2" style="color: var(--charcoal-grey); font-weight: bold; font-size: 0.95rem;">
+                Bienvenidos a los rincones más profundos y fascinantes de los <strong>Hironos</strong>
+              </p>
+              <p class="mb-2" style="font-size: 0.85rem;">
+                Nuestra misión es conectar a los exploradores urbanos, amantes del misterio y mentes curiosas con relatos que rara vez salen a la luz. Cada callejón, cada estructura antigua y cada rincón oculto guarda una memoria que merece ser contada.
+              </p>
+              <p class="mb-0" style="font-size: 0.85rem;">
+                Prepárate para cuestionar lo ordinario y mirar más allá de lo evidente. Ya sea que busques descifrar un viejo enigma, conocer un relato fascinante o simplemente sentir la emoción de la aventura desde tu pantalla, estás en el lugar correcto.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna Derecha (Noticias) -->
+      <div class="col-3 px-2">
+        <div class="p-3 rounded shadow-sm text-center h-100" style="background-color: color-mix(in srgb, var(--earth-brown) 50%, transparent); color: white;">
+          <h5 class="fw-bold">Noticias</h5>
+          <p class="small text-light">Últimas novedades</p>
+          <div class="bg-light text-dark rounded p-3 my-2 opacity-75 text-start small">
+            🌱 Guía Hirono
+          </div>
+          <div class="bg-light text-dark rounded p-3 my-2 opacity-75 text-start small">
+            🌿 Taller de Mitos
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Pie -->
+  <footer class="text-center py-4 text-white" style="background-color: var(--charcoal-grey);">
+    <div class="container">
+      <p class="mb-1">Equipo de Desarrollo: <strong>DMA</strong></p>
+      <p class="mb-0 small text-light">Contacto: <a href="mailto:hirononate@gmail.com" class="text-decoration-none" style="color: var(--beige-sand);">hirononate@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
