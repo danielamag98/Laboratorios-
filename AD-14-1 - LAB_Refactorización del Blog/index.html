@@ -12,16 +12,17 @@
 </head>
 
 
-<body style="background-color: var(--beige-sand);">
+<body class="p-2 theme-inverse theme-muted">
 
   <!-- Navbar Bootstrap -->
   <div class="floating-nav-wrapper">
-    <nav class="navbar navbar-expand-md floating-box">
+    <nav class="navbar navbar-expand-md floating-box bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="index.html" style="color: var(--beige-sand);">Hirolandia</a>
+        <a class="navbar-brand fw-bold bf-dark text-white" href="index.html">Hirolandia</a>
 
         <!-- Botón de Bootstrap -->
-        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                  aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -29,13 +30,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav gap-2 mt-2 mt-md-0">
             <li class="nav-item">
-              <a class="nav-link px-3 rounded text-center" href="index.html" style="color: var(--beige-sand);">Inicio</a>
+              <a class="nav-link px-3 rounded text-center bg-white" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3 rounded text-center" href="about.html" style="color: #fff;">Quienes somos</a>
+              <a class="nav-link px-3 rounded text-center bg-white" href="about.html">Quienes somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3 rounded text-center" href="contact.html" style="color: #fff;">Contacto</a>
+              <a class="nav-link px-3 rounded text-center bg-white" href="contact.html"">Contacto</a>
             </li>
           </ul>
         </div>
@@ -49,7 +50,7 @@
 
       <!-- Columna Izquierda (Anuncios) -->
       <div class="col-3 px-2">
-        <div class="p-3 rounded shadow-sm text-center h-100" style="background-color: color-mix(in srgb, var(--slate-blue-grey) 50%, transparent); color: white;">
+        <div class="p-3 rounded shadow-sm text-center h-100 text-white bg-success p-2 bg-10 opacity-75">
           <h5 class="fw-bold">Anuncios</h5>
           <p class="small text-light">Espacio reservado para futuros patrocinadores y publicidad</p>
           <div class="p-4 bg-light text-dark rounded text-center my-4 opacity-75">
@@ -60,9 +61,9 @@
 
       <!-- Columna Central  -->
       <div class="col-6 px-3">
-        <div class="p-4 rounded shadow-sm bg-white h-100" style="border-top: 5px solid var(--dark-pine);">
+        <div class="p-4 rounded shadow-sm bg-white h-100">
           <!-- Título -->
-          <h1 class="text-center fw-bold mb-2" style="color: var(--charcoal-grey);">Bienvenidos a Hirolandia</h1>
+          <h1 class="text-center fw-bold mb-2 text-dark">Bienvenidos a Hirolandia</h1>
           <p class="text-center text-muted small mb-4">Publicado por DMA • 14 de Octubre, 2026</p>
 
           <div class="row align-items-center gx-2 my-3">
@@ -73,14 +74,16 @@
 
             <!-- Texto principal -->
             <div class="col-7 ps-0">
-              <p class="mb-2" style="color: var(--charcoal-grey); font-weight: bold; font-size: 0.95rem;">
+              <p class="mb-2 text-dark fw-bold">
                 Bienvenidos a los rincones más profundos y fascinantes de los <strong>Hironos</strong>
               </p>
-              <p class="mb-2" style="font-size: 0.85rem;">
-                Nuestra misión es conectar a los exploradores urbanos, amantes del misterio y mentes curiosas con relatos que rara vez salen a la luz. Cada callejón, cada estructura antigua y cada rincón oculto guarda una memoria que merece ser contada.
+              <p class="mb-1 text-dark">
+                Nuestra misión es conectar a los exploradores urbanos, amantes del misterio y mentes curiosas con relatos que 
+                rara vez salen a la luz. Cada callejón, cada estructura antigua y cada rincón oculto guarda una memoria que merece ser contada.
               </p>
-              <p class="mb-0" style="font-size: 0.85rem;">
-                Prepárate para cuestionar lo ordinario y mirar más allá de lo evidente. Ya sea que busques descifrar un viejo enigma, conocer un relato fascinante o simplemente sentir la emoción de la aventura desde tu pantalla, estás en el lugar correcto.
+              <p class="mb-0" text-dark">
+                Prepárate para cuestionar lo ordinario y mirar más allá de lo evidente. Ya sea que busques descifrar un viejo 
+                enigma, conocer un relato fascinante o simplemente sentir la emoción de la aventura desde tu pantalla, estás en el lugar correcto.
               </p>
             </div>
           </div>
@@ -89,7 +92,7 @@
 
       <!-- Columna Derecha (Noticias) -->
       <div class="col-3 px-2">
-        <div class="p-3 rounded shadow-sm text-center h-100" style="background-color: color-mix(in srgb, var(--earth-brown) 50%, transparent); color: white;">
+        <div class="p-3 rounded shadow-sm text-center text-white h-100 bg-success p-2 bg-10 opacity-75">
           <h5 class="fw-bold">Noticias</h5>
           <p class="small text-light">Últimas novedades</p>
           <div class="bg-light text-dark rounded p-3 my-2 opacity-75 text-start small">
@@ -105,10 +108,10 @@
   </div>
 
   <!-- Pie -->
-  <footer class="text-center py-4 text-white" style="background-color: var(--charcoal-grey);">
+  <footer class="text-center py-4 text-white bg-success p-2 bg-1 bg-success opacity-75">
     <div class="container">
       <p class="mb-1">Equipo de Desarrollo: <strong>DMA</strong></p>
-      <p class="mb-0 small text-light">Contacto: <a href="mailto:hirononate@gmail.com" class="text-decoration-none" style="color: var(--beige-sand);">hirononate@gmail.com</a></p>
+      <p class="mb-0 small text-light">Contacto: <a href="mailto:hirononate@gmail.com" class="text-decoration-none text-white">hirononate@gmail.com</a></p>
     </div>
   </footer>
 

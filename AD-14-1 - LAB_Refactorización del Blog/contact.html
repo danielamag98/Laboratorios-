@@ -11,28 +11,29 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body style="background-color: var(--beige-sand);">
+<body class="p-2 theme-inverse theme-muted">
 
   <!-- Navbar Bootstrap  -->
   <div class="floating-nav-wrapper">
-    <nav class="navbar navbar-expand-md floating-box">
+    <nav class="navbar navbar-expand-md floating-box bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="index.html" style="color: var(--beige-sand);">Hirolandia</a>
+        <a class="navbar-brand fw-bold bf-dark text-white" href="index.html">Hirolandia</a>
 
-        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav gap-2 mt-2 mt-md-0">
             <li class="nav-item">
-              <a class="nav-link px-3 rounded text-center" href="index.html" style="color: #fff;">Inicio</a>
+              <a class="nav-link px-3 rounded text-center bg-white" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3 rounded text-center" href="about.html" style="color: #fff;">Quienes somos</a>
+              <a class="nav-link px-3 rounded text-center bg-white" href="about.html">Quienes somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active px-3 rounded text-center" aria-current="page" href="contact.html" style="color: var(--beige-sand);">Contacto</a>
+              <a class="nav-link px-3 rounded text-center bg-white" aria-current="page" href="contact.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -46,7 +47,7 @@
 
       <!-- Columna Izquierda (Anuncios) -->
       <div class="col-3 px-2">
-        <div class="p-3 rounded shadow-sm text-center h-100" style="background-color: color-mix(in srgb, var(--slate-blue-grey) 50%, transparent); color: white;">
+        <div class="p-3 rounded shadow-sm text-center h-100 text-white bg-success p-2 bg-10 opacity-75">
           <h5 class="fw-bold">Anuncios</h5>
           <p class="small text-light">Espacio reservado para futuros patrocinadores y publicidad</p>
           <div class="p-4 bg-light text-dark rounded text-center my-4 opacity-75">
@@ -57,8 +58,8 @@
 
       <!-- Columna Central (Formulario) -->
       <div class="col-6 px-3">
-        <div class="p-4 rounded shadow-sm bg-white h-100" style="border-top: 5px solid var(--dark-pine);">
-          <h1 class="text-center fw-bold mb-2" style="color: var(--charcoal-grey);">Contacto</h1>
+        <div class="p-4 rounded shadow-sm bg-white h-100">
+          <h1 class="text-center fw-bold mb-2 text-dark">Contacto</h1>
           <p class="text-center text-muted small mb-4">Envíanos tus comentarios o dudas a través del siguiente formulario.</p>
 
           <!-- Alerta en directo -->
@@ -70,28 +71,28 @@
           <!-- correo electrónico y área de texto -->
           <form id="contactForm">
             <div class="mb-3">
-              <label for="userName" class="form-label fw-bold" style="color: var(--charcoal-grey);">Nombre</label>
+              <label for="userName" class="form-label fw-bold">Nombre</label>
               <input type="text" class="form-control" id="userName" placeholder="Tu nombre" required>
             </div>
 
             <div class="mb-3">
-              <label for="userEmail" class="form-label fw-bold" style="color: var(--charcoal-grey);">Correo electrónico</label>
+              <label for="userEmail" class="form-label fw-bold">Correo electrónico</label>
               <input type="email" class="form-control" id="userEmail" placeholder="nombre@ejemplo.com" required>
             </div>
 
             <div class="mb-3">
-              <label for="userMessage" class="form-label fw-bold" style="color: var(--charcoal-grey);">Mensaje</label>
+              <label for="userMessage" class="form-label fw-bold">Mensaje</label>
               <textarea class="form-control" id="userMessage" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
             </div>
 
-            <button type="submit" class="btn text-white w-100 fw-bold" style="background-color: var(--dark-pine);">Enviar Mensaje</button>
+            <button type="submit" class="btn text-white w-100 fw-bold bg-dark p-3 bg-1">Enviar Mensaje</button>
           </form>
         </div>
       </div>
 
       <!-- Columna Derecha (Noticias) -->
       <div class="col-3 px-2">
-        <div class="p-3 rounded shadow-sm text-center h-100" style="background-color: color-mix(in srgb, var(--earth-brown) 50%, transparent); color: white;">
+        <div class="p-3 rounded shadow-sm text-center h-100 text-white bg-success p-2 bg-10 opacity-75">
           <h5 class="fw-bold">Noticias</h5>
           <p class="small text-light">Últimas novedades</p>
           <div class="bg-light text-dark rounded p-3 my-2 opacity-75 text-start small">
@@ -107,10 +108,10 @@
   </div>
 
   <!-- Pie -->
-  <footer class="text-center py-4 mt-5 text-white" style="background-color: var(--charcoal-grey);">
+  <footer class="text-center py-4 text-white bg-success p-2 bg-1 bg-success opacity-75">
     <div class="container">
       <p class="mb-1">Equipo de Desarrollo: <strong>DMA</strong></p>
-      <p class="mb-0 small text-light">Contacto: <a href="mailto:hirononate@gmail.com" class="text-decoration-none" style="color: var(--beige-sand);">hirononate@gmail.com</a></p>
+      <p class="mb-0 small text-light">Contacto: <a href="mailto:hirononate@gmail.com" class="text-decoration-none text-white">hirononate@gmail.com</a></p>
     </div>
   </footer>
 
