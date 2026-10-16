@@ -31,8 +31,6 @@ class UserController{
                 return this.users[i];
         } 
     }
-
-
 }
 
 
