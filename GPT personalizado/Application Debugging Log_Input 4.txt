@@ -1,0 +1,29 @@
+2024-06-01 10:01:25 DEBUG ConfigLoader - Configuration file 'app-config.yaml' loaded successfully.
+2024-06-01 10:01:26 INFO  AppStart - Application 'inventory-manager' started on port 8080.
+2024-06-01 10:01:30 DEBUG DependencyCheck - Dependency 'database-connector' loaded, version: 3.2.1.
+2024-06-01 10:01:30 DEBUG DependencyCheck - Dependency 'auth-module' loaded, version: 2.5.4.
+2024-06-01 10:01:32 DEBUG CacheInit - Initial cache preloading complete, 250 items loaded.
+2024-06-01 10:02:00 INFO  UserLogin - User 'jdoe' successfully logged in from IP 192.168.1.12.
+2024-06-01 10:02:10 WARN  QueryPerformance - Database query took 450ms, exceeding threshold of 300ms.
+2024-06-01 10:02:20 DEBUG QueryDetails - Slow query: SELECT * FROM products WHERE category='electronics'.
+2024-06-01 10:02:45 ERROR APIRequest - Failed to fetch data from 'pricing-service', HTTP status: 504.
+2024-06-01 10:02:46 DEBUG RetryPolicy - Retrying request to 'pricing-service', attempt 2 of 3.
+2024-06-01 10:02:50 INFO  APIResponse - Successfully retrieved pricing data on retry attempt 2.
+2024-06-01 10:03:15 DEBUG SessionManager - Session for user 'jdoe' extended due to activity.
+2024-06-01 10:04:00 ERROR NullPointer - NullPointerException in 'CartService' at line 85.
+2024-06-01 10:04:01 DEBUG StackTrace - java.lang.NullPointerException: Attempt to access null object reference
+   at com.company.cart.CartService.calculateTotal(CartService.java:85)
+   at com.company.cart.CartController.checkout(CartController.java:58)
+   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+2024-06-01 10:04:30 INFO  HealthCheck - Service 'payment-gateway' is healthy.
+2024-06-01 10:05:00 WARN  CacheMiss - Cache miss for key 'product-12345', fetching from database.
+2024-06-01 10:05:05 DEBUG DatabaseQuery - Fetched product details for key 'product-12345', time taken: 120ms.
+2024-06-01 10:05:45 DEBUG GarbageCollection - JVM garbage collection completed in 50ms, freed 35MB.
+2024-06-01 10:06:10 WARN  AuthenticationTimeout - Authentication token for user 'asmith' expired, re-login required.
+2024-06-01 10:06:20 INFO  UserLogout - User 'asmith' logged out successfully.
+2024-06-01 10:07:00 DEBUG ThreadMonitor - Active threads: 42, max threads: 100.
+2024-06-01 10:07:15 ERROR DeadlockDetected - Deadlock detected between threads 'Thread-12' and 'Thread-18'.
+2024-06-01 10:07:16 DEBUG DeadlockResolution - Releasing lock held by 'Thread-12' to resolve deadlock.
+2024-06-01 10:07:45 INFO  SystemMetrics - CPU usage: 45%, Memory usage: 72%, Disk I/O: 120MB/s.
+2024-06-01 10:08:30 DEBUG AppShutdown - Application shutting down gracefully, stopping services.
+2024-06-01 10:08:35 INFO  AppStop - Application 'inventory-manager' stopped successfully.
