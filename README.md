@@ -1,6 +1,15 @@
+# Laboratorios · Bootcamp Full Stack Java
 
-Hola CH73,
+Repositorio donde subo los laboratorios del bootcamp **Full Stack Java de Generation México**. Aquí practico los fundamentos del desarrollo web y el trabajo con Git/GitHub.
 
-En este repositorio voy subiendo todos los laboratorios y prácticas que realizo durante el bootcamp de Desarrollador JavaScript de Generation. Cada carpeta es un laboratorio independiente y sirve como registro de mi avance, desde la lógica básica hasta la programación orientada a objetos y el trabajo con HTML, CSS y JavaScript.
+## 🛠️ Tecnologías
 
-      Nota: en varios archivos el mensaje del último commit dice "Corregí los nombres de los laboratorios". Fue porque renombré las carpetas para organizarlas mejor. Tuve algunas complicaciones al hacerlo, por eso se ve el mismo mensaje en muchos archivos.
+HTML5 · CSS3 · JavaScript · Bootstrap · Git/GitHub
+
+## 🧠 Lo que practiqué
+
+- Estructura semántica con HTML y estilos con CSS y Bootstrap
+- Interactividad con JavaScript
+- Flujo de trabajo con Git: ramas por tarea, commits, push y resolución de conflictos con rebase
+- Organización de tareas con un tablero de GitHub Projects
+
